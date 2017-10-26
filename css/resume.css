@@ -52,16 +52,15 @@ h1 {
 
 h2 {
   margin: 5px 0;
-  color: orange;
 }
 
 h3 {
   font-size: 14px;
-  color: orange;
+  color: var(--main-color);;
 }
 
 b {
-  color: orange;
+  color: var(--main-color);;
 }
 
 section {
@@ -72,8 +71,33 @@ i {
   color: grey;
 }
 
+.links {
+  margin-top: 10px;
+}
+
+.links i:hover {
+  color: var(--main-color);
+}
+
+.links i {
+  color: black;
+}
+
+#job-title i {
+  color: var(--main-color);
+}
+
+
 #contact {
   text-align: center;
+}
+
+.links {
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: var(--main-color);
 }
 
 #contact h3 {
@@ -82,6 +106,7 @@ i {
 
 #education-skills {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .edu-section {
@@ -108,7 +133,7 @@ i {
 
 .skills-main p {
   font-weight: 800;
-  color: orange;
+  color: var(--main-color);;
 }
 .skills-other {
   flex: 4;
@@ -137,4 +162,22 @@ i {
 
 .project {
   margin-bottom: 10px;
+}
+
+.project-title {
+  display: flex;
+  align-items: baseline;
+}
+.project-title a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.project i {
+  color: black;
+  margin: 0 5px;
+}
+
+.project i:hover {
+  color: var(--main-color);
 }

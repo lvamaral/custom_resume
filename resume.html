@@ -2,15 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Amaral Resume</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/resume.css">
+    <link href="https://use.fontawesome.com/f58ff23766.css" media="all" rel="stylesheet">
   </head>
   <body>
     <section id="contact">
       <h1>Lucas Amaral</h1>
-      <h3><i>Software Developer/Engineer</i></h3>
-      <h4>Email | Github | LinkedIn | Portfolio</h4>
+      <h3 id="job-title"><i>Software Developer/Engineer</i></h3>
+      <div class="links">
+        <a href="mailto:lucas.v.amaral@gmail.com" id="email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="http://www.github.com/lvamaral" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <a href="http://www.linkedin.com/in/lucasvamaral" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="http://www.lucasvamaral.com/?utm_source=resume" target="_blank"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+      </div>
       <!-- <p>680 Mission St.</p>
       <p>San Francisco, 94105</p>
       <p>(919) 599 3881</p> -->
@@ -93,7 +100,15 @@
     <section id="projects">
       <h2># Projects</h2>
       <div class="project">
-        <h3>BetterPlaylists - Live | Github</h3>
+        <div class="project-title">
+          <h3>BetterPlaylists</h3>
+          <p><a href="#">Live</a></p>
+          <a href="#">Github</a>
+          <!-- <i class="fa fa-desktop" id="lil" aria-hidden="true"><a href="#"></a></i> -->
+          <i class="fa fa-github" aria-hidden="true"><a href="#"></a></i>
+        </div>
+
+        <!-- <h3>BetterPlaylists <i><a href="#">Live</a> | <a href="#">Github</a></i></h3> -->
         <p>Full stack music-sharing website built with Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.</p>
         <ul>
           <li>Secured user account creation and authentication for login and signup based on BCrypt encryption</li>

@@ -22,13 +22,18 @@ src: url(Aleo-Light.otf);
 font-family: AleoLightItalic;
 src: url(Aleo-LightItalic.otf);
 }
+
+:root {
+  --main-color: orange;
+}
+
 * {
 font-family: AleoRegular, Helvetica, Arial, sans-serif;
 }
 
-h1, strong {
+strong {
 font-family: AleoBold, Helvetica, Arial, sans-serif;
-color: orange;
+color: var(--main-color);
 }
 
 em, cite, blockquote {
