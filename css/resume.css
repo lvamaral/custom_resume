@@ -174,10 +174,15 @@ i {
 }
 
 .project i {
-  color: black;
-  margin: 0 5px;
+  margin-left: 10px;
+  /*margin: 0 10px;*/
 }
 
 .project i:hover {
   color: var(--main-color);
+}
+
+.project-title p {
+  text-align: right;
+  color: grey;
 }
